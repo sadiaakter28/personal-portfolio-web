@@ -48,6 +48,7 @@ section{
 }
 .half-width img{
     width: 100%;
+
 }
 
 h4{
@@ -109,6 +110,36 @@ h3.sub-title{
     width: 600px;
     border-radius: 10px;
     color: white;
+}
+
+/*----Skills section----*/
+h2.sub-title{
+    margin-bottom: 5%;
+}
+.skills-section{
+    background-image: url("images/sec-5.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: white;
+}
+.cyan-highlight{
+    color: cyan;
+    font-weight: 700;
+}
+.single-skills{
+    box-shadow: 10px 10px 40px gray;
+    height: 70%;
+    border-radius: 5px;
+}
+#skills{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #ff1671, #ff5096);
+    border-image-slice: 1;
+}
+#project-list{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
 
 /*----footer----*/
